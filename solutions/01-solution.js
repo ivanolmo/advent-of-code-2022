@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// read 2200+ line input file
+// read input file
 const data = fs.readFileSync('./inputs/01-input.txt', 'utf8');
 
 // regex to remove windows specific '\r' characters, then remove
